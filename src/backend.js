@@ -23,5 +23,11 @@ export class Person {
       return Math.floor(this.age / jupiterYear)
     }
   }
-  
+  checkExercise(){
+    if (this.exercise === "yes"){
+      return 100;
+    }else if(this.exercise === "no"){
+      return 80;
+    }
+  }
 };
