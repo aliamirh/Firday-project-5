@@ -9,6 +9,9 @@ describe("Person",() => {
   test("calculate persons age on different planets", () => {
     let person2 = new Person("Ali",27, true, "venus");
     expect(person2.checkAge()).toEqual(43);
-
+  });
+  test("how many years they have left", () =>{
+    let person3 = new Person("Ali", 27, "mars");
+    expect(person3.yearsLeft()).toEqual(undefined);
   });
 });

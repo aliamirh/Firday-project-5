@@ -2,6 +2,7 @@ export const mercuryYear = .24
 export const venusYear = .62
 export const marsYear = 1.88
 export const jupiterYear = 11.68
+export const averageHumanAge = 80
 
 
 export class Person {
@@ -22,4 +23,5 @@ export class Person {
       return Math.floor(this.age / jupiterYear)
     }
   }
+  
 };
