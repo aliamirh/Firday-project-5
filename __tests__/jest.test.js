@@ -7,8 +7,8 @@ describe("Person",() => {
     expect(person1.exercise).toEqual(true)
   });
   test("calculate persons age on different planets", () => {
-    let person2 = new Person("Ali",27, true, "mercury");
-    expect(person2.checkAge()).toEqual(undefined);
+    let person2 = new Person("Ali",27, true, "venus");
+    expect(person2.checkAge()).toEqual(43);
 
   });
 });
