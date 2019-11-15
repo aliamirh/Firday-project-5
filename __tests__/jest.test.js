@@ -12,6 +12,6 @@ describe("Person",() => {
   });
   test("how many years they will live if they anwer yes or no to exercising", () =>{
     let person3 = new Person("Ali",27 ,"yes", "mercury");
-    expect(person3.checkExercise()).toEqual(99);
+    expect(person3.checkExercise()).toEqual(100);
   });
 });
