@@ -5,6 +5,7 @@ export const jupiterYear = 11.68
 
 
 
+
 export class Person {
   constructor (name, age, exercise, planet) {
   this.name = name;
@@ -39,6 +40,13 @@ export class Person {
       return Math.floor((this.checkExercise() - this.age) / marsYear);
     }else if(this.planet === "jupiter"){
       return Math.floor((this.checkExercise() - this.age) / jupiterYear);
+    }
+  }
+  yearsPast(){
+    if (this.checkAge() > this.checkExercise()){
+      return this.checkAge() - this.checkExercise();
+    }else{
+      return "not past life expectancy"
     }
   }
 };

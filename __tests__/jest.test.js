@@ -24,6 +24,6 @@ describe("Person",() => {
     expect(person1.checkPlanetYearsLeft()).toEqual(6);
   });
   test("how far past life expectancy they have lived", () =>{
-    expect(person1.yearsPast()).toEqual(undefined);
+    expect(person1.yearsPast()).toEqual("not past life expectancy");
   });
 });
