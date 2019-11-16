@@ -13,7 +13,7 @@ describe("Person",() => {
   });
 
   test("calculate persons age on different planets", () => {
-    expect(person1.checkAge()).toEqual(43);
+    expect(person1.checkAge()).toEqual(304);
   });
 
   test("how many years they will live if they anwer yes or no to exercising", () =>{
