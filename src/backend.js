@@ -33,6 +33,12 @@ export class Person {
   checkPlanetYearsLeft(){
     if (this.planet === "mercury"){
       return Math.floor((this.checkExercise() - this.age) / mercuryYear);
+    }else if(this.planet === "mercury"){
+      return Math.floor((this.checkExercise() - this.age) / venusYear);
+    }else if(this.planet === "mars"){
+      return Math.floor((this.checkExercise() - this.age) / marsYear);
+    }else if(this.planet === "jupiter"){
+      return Math.floor((this.checkExercise() - this.age) / jupiterYear);
     }
   }
 };
