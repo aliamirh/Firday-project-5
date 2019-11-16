@@ -16,15 +16,15 @@ _A user will enter their Name, Age, answer yes or no if they exercise, and the p
 
 ## Specs
 
-* _Person life expectancy is based if the person says "yes" or "no" to exercising
-Input: "yes"
-Output: 100 years_
+* _Person life expectancy is based if the person says "yes" or "no" to exercising <br/>
+Input: "yes" <br/>
+Output: 100 years_ <br/>
 
-* _Based on which planet they choose it will produce a different age.
-Input: Age 27, Planet jupiter
-Output: 2 years
-Input: Age 27, Planet mercury
-Output: 112 years_
+* _Based on which planet they choose it will produce a different age. <br/>
+Input: Age 27, Planet jupiter <br/>
+Output: 2 years <br/>
+Input: Age 27, Planet mercury <br/>
+Output: 112 years_ <br/>
 
 * _A Mercury year is .24 Earth years_
 * _A Venus year is .62 Earth years_
