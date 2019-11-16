@@ -30,5 +30,9 @@ export class Person {
       return 80;
     }
   }
-
+  checkPlanetYearsLeft(){
+    if (this.planet === "mercury"){
+      return Math.floor((this.checkExercise() - this.age) / mercuryYear);
+    }
+  }
 };

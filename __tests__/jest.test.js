@@ -3,7 +3,7 @@ import {Person, mercuryYear, venusYear, marsYear, jupiterYear} from './../src/ba
 describe("Person",() => {
   let person1;
   beforeEach(() => {
-    person1 = new Person("Ali", 27, "yes", "earth");
+    person1 = new Person("Ali", 27, "yes", "mercury");
   });
 
   test("should display person name, age, yes or no if they exercise, and what planet in an object", () => {
