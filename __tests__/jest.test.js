@@ -13,7 +13,7 @@ describe("Person",() => {
   });
 
   test("calculate persons age on different planets", () => {
-    expect(person1.checkAge()).toEqual(304);
+    expect(person1.checkAge()).toEqual(2);
   });
 
   test("how many years they will live if they anwer yes or no to exercising", () =>{
@@ -21,6 +21,9 @@ describe("Person",() => {
   });
 
   test("how many years they have left on a given planet", () =>{
-    expect(person1.checkPlanetYearsLeft()).toEqual(undefined);
+    expect(person1.checkPlanetYearsLeft()).toEqual(6);
+  });
+  test("how far past life expectancy they have lived", () =>{
+    expect(person1.yearsPast()).toEqual(undefined);
   });
 });
